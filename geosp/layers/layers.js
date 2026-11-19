@@ -138,5 +138,5 @@ lyr_SebaranSatuanPendidikan_1.set('fieldImages', {'OBJECTID': 'TextEdit', 'NAMOB
 lyr_SebarandiKapanewon_0.set('fieldLabels', {'OBJECTID': 'hidden field', 'PROV': 'hidden field', 'KAB': 'hidden field', 'KECAMATAN': 'no label', 'SUMBER': 'hidden field', 'luas': 'hidden field', 'Shape_Leng': 'hidden field', 'Shape_Area': 'hidden field', 'Jumlah SP__TK': 'inline label - always visible', 'Jumlah SP__SD': 'inline label - visible with data', 'Jumlah SP__SMP': 'inline label - visible with data', });
 lyr_SebaranSatuanPendidikan_1.set('fieldLabels', {'OBJECTID': 'hidden field', 'NAMOBJ': 'no label', 'WADMKC': 'no label', 'WADMKK': 'hidden field', 'WADMPR': 'hidden field', 'Jumlah Satuan Pendidikan_TK': 'inline label - always visible', 'Jumlah Satuan Pendidikan_SD': 'inline label - always visible', 'Jumlah Satuan Pendidikan_SMP': 'inline label - always visible', });
 lyr_SebaranSatuanPendidikan_1.on('precompose', function(evt) {
-    evt.context.globalCompositeOperation = 'normal';
+    evt.context.globalCompositeOperation = 'darken';
 });
